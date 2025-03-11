@@ -44,7 +44,8 @@ $(document).ready(function(){
             timeformat: '%d %b'
         },
         yaxis: {
-            tickDecimals: 0
+            tickDecimals: 0,
+			min: 0
         },
         lines: {
             lineWidth: 3
